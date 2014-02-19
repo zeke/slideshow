@@ -1,30 +1,64 @@
-section.green
+section
   article
-    h1 Slideshow!
-    h2 Just, like, use your arrow keys.
+    h1 Harp Slideshow Template
+    h2 Make a cool slide deck with this. Use your arrow keys.
 
-section.coral
+section
   article
-    h1 Another Slide!
-    h2 This is never going to get old.
+    h1 Second Slide
+    h2 You're getting the hang of it.
 
-section.squash
+section
   article
-    img.monkey(src="images/monkey.png")
+    h1 Simple Layout
+    h2 All the content is centered automatically.
 
-section.teal
+section
   article
+    h1 Images
+    h2 Drop in images and they autoscale. Observe...
+
+section
+  img.heroku-logo(src="https://s3.amazonaws.com/design.heroku/logos/heroku-logo-white.svg")
+
+section
+  article
+    h1 Markdown
     :markdown
-      Put some **crazy** markdown in here!
+      Write your preso in **markdown** like the cool kids.
 
-section.navy
+section
   article
     :markdown
       Here comes an `iframe`...
 
-section.navy
+section
   iframe(src="http://harpjs.com" seamless)
 
-section.navy
+section
   article
-    h1 That's all folks!
+    h1 Code!
+    :markdown
+      GitHub Flavoured Markdown support out of the box.
+
+section.code
+  article
+    :markdown
+      ```js
+        // Free syntax highlighting with 48 themes
+
+        var http = require('http');
+        http.createServer(function (req, res) {
+          res.writeHead(200, {'Content-Type': 'text/plain'});
+          res.end('Hello World\n');
+        }).listen(1337, '127.0.0.1');
+        console.log('Server running at http://127.0.0.1:1337/');
+      ```
+
+section
+  img(src="https://s3.amazonaws.com/design.heroku/logos/heroku-mark-white.svg" style="opacity:0.5")
+
+section
+  article
+    :markdown
+      To get started, check out [harp-slideshow-template](https://github.com/zeke/harp-slideshow-template) on GitHub.

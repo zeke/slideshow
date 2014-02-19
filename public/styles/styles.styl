@@ -1,5 +1,13 @@
-backgroundColor = #58488A
+// https://s3.amazonaws.com/design.heroku/logos/heroku-logo-purple.svg
+// https://s3.amazonaws.com/design.heroku/logos/heroku-logo-white.svg
+// https://s3.amazonaws.com/design.heroku/logos/heroku-mark-purple.svg
+// https://s3.amazonaws.com/design.heroku/logos/heroku-mark-white.svg
+
+backgroundColor = #53397C
 textColor = white
+
+// Layout
+//---------------------------------------------------------
 
 *, *:before, *:after
   -moz-box-sizing border-box
@@ -25,24 +33,26 @@ section
   height 100%
   width 100%
   padding 20px
-  &.green
-    background #3A5737
-  &.coral
-    background #C3553C
-  &.squash
-    background #CF9530
-  &.teal
-    background #53AC7A
-  &.navy
-    background #0E192A
 
-article
-  position absolute
-  top 50%
-  left 50%
-  -webkit-transform translate(-50%, -50%)
-  transform translate(-50%, -50%)
-  overflow hidden
+  > article, > img
+    position absolute
+    top 50%
+    left 50%
+    -webkit-transform translate(-50%, -50%)
+    transform translate(-50%, -50%)
+    overflow hidden
+
+  > img
+    max-width: 60%
+    max-height: 60%
+
+  > iframe
+    position: relative
+    width: 100%
+    height: 100%
+
+// Typography
+//---------------------------------------------------------
 
 h1, h2
   font-weight bold
@@ -69,11 +79,11 @@ p
 a
   color textColor
 
-img.monkey
-  max-width: 500px
-  max-height: 500px
+pre > code
+  font-size: 32px
 
-iframe
-  position: relative
-  width: 100%
-  height: 100%
+section.code
+  background #2f1e2e
+
+// .hljs
+//   background: none
