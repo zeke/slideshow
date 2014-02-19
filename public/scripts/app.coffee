@@ -1,2 +1,2 @@
 $ ->
-  console.log('slideshow time!')
+  hljs.initHighlightingOnLoad();
