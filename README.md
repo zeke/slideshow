@@ -16,7 +16,7 @@ and click "Install". Easy peasy.
 npm install harp-from-the-future --global
 
 # Download this repo as your harp boilerplate
-harp-from-the-future init myshow -t zeke/harp-slideshow-template#heroku
+harp-from-the-future init myshow -t zeke/harp-slideshow-template
 
 # Run the server
 harp-from-the-future server myshow
