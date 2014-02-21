@@ -1,0 +1,23 @@
+{
+  "name": "Harp Slideshow",
+  "appDescription": "A harp template app for creating badass slide decks.",
+  "buildpack": "zeke/harp",
+  "config": {
+    "keys":
+      [
+        {
+          "key": "SECRET_TOKEN",
+          "source": "secret"
+        },
+        {
+          "key": "WEB_CONCURRENCY",
+          "value": "3"
+        }
+      ]
+  },
+  "addOns": [
+    "heroku-postgresql:dev",
+    "openredis",
+    "sendgrid"
+  ]
+}
