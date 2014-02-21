@@ -1,5 +1,7 @@
 # Harp Slideshow Template
 
+[![Deploy to Heroku](https://debut.heroku.com/deploy-button.png)](https://debut.heroku.com/templates?json=https://github.com/zeke/harp-slideshow-template)
+
 This is a template app for creating badass slide decks. It uses Zeke's [experimental fork](https://github.com/zeke/harp/tree/from-the-future) of the [Harp web server](http://harpjs.com).
 
 ## Demo
