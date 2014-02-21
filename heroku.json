@@ -5,19 +5,8 @@
   "config": {
     "keys":
       [
-        {
-          "key": "SECRET_TOKEN",
-          "source": "secret"
-        },
-        {
-          "key": "WEB_CONCURRENCY",
-          "value": "3"
-        }
       ]
   },
   "addOns": [
-    "heroku-postgresql:dev",
-    "openredis",
-    "sendgrid"
   ]
 }
