@@ -1,0 +1,18 @@
+{
+  "name": "Harp Slideshow",
+  "description": "A harp template app for creating badass slide decks.",
+  "keywords": ["slides", "slideshow", "deck", "presentation", "powerpoint", "keynote", "harp"],
+  "addons": [
+    "cdn_sumo"
+  ],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/zeke/harp-buildpack"
+  },
+  "scripts": {
+    "postdeploy": "echo yay"
+  },
+  "urls": {
+    "website": "https://harp-slideshow-template.herokuapp.com",
+    "success": "/"
+  }
+}
