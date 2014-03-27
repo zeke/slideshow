@@ -1,0 +1,12 @@
+{
+  "name": "Harp Slideshow",
+  "appDescription": "A harp template app for creating badass slide decks.",
+  "buildpack": "zeke/harp",
+  "config": {
+    "keys":
+      [
+      ]
+  },
+  "addOns": [
+  ]
+}
