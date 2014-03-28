@@ -1,8 +1,7 @@
 # Harp Slideshow Template
 
-[![Deploy to Heroku](https://debut.heroku.com/deploy-button.png)](https://debut.heroku.com/templates?json=https://github.com/zeke/harp-slideshow-template)
-
-This is a template app for creating badass slide decks. It uses Zeke's [experimental fork](https://github.com/zeke/harp/tree/from-the-future) of the [Harp web server](http://harpjs.com).
+This is a template app for creating simple and stylish slide decks using HTML,
+CSS, and Javascript. It's powered by the [Harp web server](http://harpjs.com).
 
 ## Demo
 
@@ -13,25 +12,25 @@ This is a template app for creating badass slide decks. It uses Zeke's [experime
 If you don't already have node installed, [go to nodejs.org](http://nodejs.org/)
 and click "Install". Easy peasy.
 
-```
-# Install my experimental branch of Harp
-npm install harp-from-the-future --global
+```sh
+# Install Harp
+npm install harp --global
 
 # Download this repo as your harp boilerplate
-harp-from-the-future init myshow -t zeke/harp-slideshow-template
+harp init myshow --boilerplate zeke/harp-slideshow-template
 
 # Run the server
-harp-from-the-future server myshow
+harp server myshow
 ```
 
 Now open [localhost:9000](http://localhost:9000) in your browser. Rejoice.
 
 ## Deploy it to Heroku
 
-```
+```sh
 git init
 git add .
-git commit -m "all the things"
+git commit -m "so it begins"
 heroku create myshow
 heroku config:set BUILDPACK_URL=https://github.com/zeke/harp-buildpack.git
 git push heroku master
