@@ -1,6 +1,8 @@
 {
   "name": "Harp Slideshow",
   "description": "A harp template app for creating badass slide decks.",
+  "summary": "Harp, the static web server with built-in preprocessing, makes Markdown, LESS, CoffeeScript, and more, as easy to use as HTML, CSS, and JavaScript.",
+  "logo": "https://harp-slideshow-template.herokuapp.com/images/harp.svg",
   "keywords": ["slides", "slideshow", "deck", "presentation", "powerpoint", "keynote", "harp"],
   "addons": [
     "cdn_sumo"
