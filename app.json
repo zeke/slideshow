@@ -6,6 +6,7 @@
   "website": "https://harp-slideshow-template.herokuapp.com",
   "success_url": "/",
   "logo": "https://harp-slideshow-template.herokuapp.com/images/harp.svg",
+  "addons": ["cdn_sumo", "swiftype"],
   "env": {
     "BUILDPACK_URL": "https://github.com/zeke/harp-buildpack"
   },
