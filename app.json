@@ -2,11 +2,12 @@
   "name": "Harp Slideshow",
   "description": "Harp, the static web server with built-in preprocessing, makes Markdown, LESS, CoffeeScript, and more, as easy to use as HTML, CSS, and JavaScript.",
   "keywords": ["slides", "slideshow", "deck", "presentation", "powerpoint", "keynote", "harp"],
-  "repository": "https://github.com/zeke/harp-slideshow-template",
+  "repository": "https://github.com/zeke/slideshow",
   "website": "https://harp-slideshow-template.herokuapp.com",
   "logo": "https://harp-slideshow-template.herokuapp.com/images/harp.svg",
   "color": "#6B919D",
   "env": {
     "BUILDPACK_URL": "https://github.com/zeke/harp-buildpack"
-  }
+  },
+  "addons": ["keen", "mongohq", "postmark", "newrelic"]
 }
