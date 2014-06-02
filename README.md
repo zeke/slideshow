@@ -3,6 +3,8 @@
 This is a template app for creating simple and stylish slide decks using HTML,
 CSS, and Javascript. It's powered by the [Harp web server](http://harpjs.com).
 
+[![Deploy on Heroku](https://clone.herokuapp.com/images/deploy-button.png)](http://clone.herokuapp.com/apps/zeke/slideshow)
+
 ## Demo
 
 [harp-slideshow-template.herokuapp.com](http://harp-slideshow-template.herokuapp.com/)
