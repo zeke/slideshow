@@ -1,5 +1,5 @@
 {
-  "name": "Harp Slideshow",
+  "name": "Harp Slideshow Experiment",
   "description": "Harp, the static web server with built-in preprocessing, makes Markdown, LESS, CoffeeScript, and more, as easy to use as HTML, CSS, and JavaScript.",
   "keywords": ["slides", "slideshow", "deck", "presentation", "powerpoint", "keynote", "harp"],
   "repository": "https://github.com/zeke/slideshow",
