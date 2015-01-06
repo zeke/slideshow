@@ -8,6 +8,5 @@
   "color": "#6B919D",
   "env": {
     "BUILDPACK_URL": "https://github.com/zeke/harp-buildpack"
-  },
-  "addons": ["keen", "mongohq", "postmark", "newrelic"]
+  }
 }
